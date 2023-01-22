@@ -114,7 +114,8 @@ Change Log:
 	v2.5.3
 		- Added Lich King's Pain and Suffering
 		- Removed Lord Marrowgar's Bone Storm
-
+	v5.0.4
+		- Bring up to date with v5.0.4
 ]]--
 
 GTFO.SpellID["62548"] = {
@@ -173,7 +174,7 @@ GTFO.SpellID["55847"] = {
 };
 
 GTFO.SpellID["59014"] = {
-	--desc = "Shadow Void (Risen Drakkari Soulmage - Drak'Tharon Keep - Normal)";
+	--desc = "Shadow Void (Risen Drakkari Soulmage - Drak'Tharon Keep - Heroic)";
 	sound = 1;
 };
 
@@ -201,6 +202,17 @@ GTFO.SpellID["56867"] = {
 	--desc = "Poison Cloud (Savage Cave Beast - Old Kingdom)";
 	sound = 1;
 };
+
+GTFO.SpellID["56858"] = {
+	--desc = "Flamestrike (Twilight Worshipper - Old Kingdom)";
+	sound = 1;
+};
+
+GTFO.SpellID["61568"] = {
+	--desc = "Flamestrike (Twilight Worshipper - Old Kingdom - Heroic)";
+	sound = 1;
+};
+
 
 GTFO.SpellID["48381"] = {
 	--desc = "Spirit Fount (King Ymiron)";
@@ -553,12 +565,6 @@ GTFO.SpellID["69628"] = {
 	sound = 1;
 };
 
--- There are 92 different spell IDs for this one!  Going to stick with the name for now...
-GTFO.SpellName["Breath"] = {
-	--desc = "Breath (Onyxia)";
-	sound = 1;
-};
-
 GTFO.SpellID["67781"] = {
 	--desc = "Desecration (The Black Knight - Normal)";
 	sound = 1;
@@ -610,24 +616,28 @@ GTFO.SpellID["69146"] = {
 	--desc = "Coldflame (Lord Marrowgar - Normal 10)";
 	sound = 1;
 	applicationOnly = true;
+	trivialLevel = 90;
 };
 
 GTFO.SpellID["70823"] = {
 	--desc = "Coldflame (Lord Marrowgar - Normal 25)";
 	sound = 1;
 	applicationOnly = true;
+	trivialLevel = 90;
 };
 
 GTFO.SpellID["70824"] = {
 	--desc = "Coldflame (Lord Marrowgar - Heroic 10)";
 	sound = 1;
 	applicationOnly = true;
+	trivialLevel = 90;
 };
 
 GTFO.SpellID["70825"] = {
 	--desc = "Coldflame (Lord Marrowgar - Heroic 25)";
 	sound = 1;
 	applicationOnly = true;
+	trivialLevel = 90;
 };
 
 GTFO.SpellID["71001"] = {
@@ -741,17 +751,17 @@ GTFO.SpellID["69832"] = {
 };
 
 GTFO.SpellID["70346"] = {
-	--desc = "Mutated Slime (Professor Putricide)";
+	--desc = "Slime Puddle (Professor Putricide - 10/25)";
 	sound = 1;
 };
 
-GTFO.SpellID["70346"] = {
-	--desc = "Mutated Slime (Professor Putricide - 10 Normal)";
+GTFO.SpellID["72868"] = {
+	--desc = "Slime Puddle (Professor Putricide - 10H)";
 	sound = 1;
 };
 
-GTFO.SpellID["72456"] = {
-	--desc = "Mutated Slime (Professor Putricide - 25 Normal)";
+GTFO.SpellID["72869"] = {
+	--desc = "Slime Puddle (Professor Putricide - 25H)";
 	sound = 1;
 };
 
@@ -829,22 +839,22 @@ GTFO.SpellID["72637"] = {
 
 GTFO.SpellID["71447"] = {
 	--desc = "Bloodbolt Splash (Blood Queen Lana'thel - 10)";
-	sound = 1;
+	sound = 4;
 };
 
 GTFO.SpellID["71481"] = {
 	--desc = "Bloodbolt Splash (Blood Queen Lana'thel - 25)";
-	sound = 1;
+	sound = 4;
 };
 
 GTFO.SpellID["71482"] = {
 	--desc = "Bloodbolt Splash (Blood Queen Lana'thel - 10 Heroic)";
-	sound = 1;
+	sound = 4;
 };
 
 GTFO.SpellID["71483"] = {
 	--desc = "Bloodbolt Splash (Blood Queen Lana'thel - 25 Heroic)";
-	sound = 1;
+	sound = 4;
 };
 
 GTFO.SpellID["72082"] = {
@@ -874,8 +884,18 @@ GTFO.SpellID["71086"] = {
 	sound = 1;
 };
 
+GTFO.SpellID["72029"] = {
+	--desc = "Mana Void (Valithria Dreamwalker - 10H)";
+	sound = 1;
+};
+
 GTFO.SpellID["71743"] = {
 	--desc = "Mana Void (Valithria Dreamwalker - 25)";
+	sound = 1;
+};
+
+GTFO.SpellID["72030"] = {
+	--desc = "Mana Void (Valithria Dreamwalker - 25H)";
 	sound = 1;
 };
 
@@ -892,21 +912,25 @@ GTFO.SpellID["71381"] = {
 GTFO.SpellID["72754"] = {
 	--desc = "Defile (Lich King - 10)";
 	sound = 1;
+	alwaysAlert = true;
 };
 
 GTFO.SpellID["73708"] = {
 	--desc = "Defile (Lich King - 25)";
 	sound = 1;
+	alwaysAlert = true;
 };
 
 GTFO.SpellID["73709"] = {
 	--desc = "Defile (Lich King - 10H)";
 	sound = 1;
+	alwaysAlert = true;
 };
 
 GTFO.SpellID["73710"] = {
 	--desc = "Defile (Lich King - 25H)";
 	sound = 1;
+	alwaysAlert = true;
 };
 
 GTFO.SpellID["68983"] = {
@@ -966,13 +990,13 @@ GTFO.SpellID["59470"] = {
 
 GTFO.SpellID["71045"] = {
 	--desc = "Backlash (Sindragosa - 10H)";
-	sound = 1;
+	sound = 4;
 	ignoreSelfInflicted = true;
 };
 
 GTFO.SpellID["71046"] = {
 	--desc = "Backlash (Sindragosa - 25H)";
-	sound = 1;
+	sound = 4;
 	ignoreSelfInflicted = true;
 };
 
@@ -1166,5 +1190,173 @@ GTFO.SpellID["57634"] = {
 
 GTFO.SpellID["74117"] = {
 	--desc = "Pain and Suffering (Lich King - HoR)";
+	sound = 1;
+};
+
+GTFO.SpellID["73916"] = {
+	--desc = "Conflagration (Captain Grondel - ICC)";
+	sound = 1;
+};
+
+GTFO.SpellID["64847"] = {
+	--desc = "Runed Flame Jets (Ulduar 10)";
+	sound = 1;
+	tankSound = 0;
+};
+
+GTFO.SpellID["64988"] = {
+	--desc = "Runed Flame Jets (Ulduar 25)";
+	sound = 1;
+	tankSound = 0;
+};
+
+GTFO.SpellID["28865"] = {
+	--desc = "Consumption (Four Horsemen - Naxx)";
+	sound = 1;
+};
+
+GTFO.SpellID["64206"] = {
+	--desc = "Consumption (XT-002 - Ulduar)";
+	sound = 1;
+};
+
+GTFO.SpellID["17086"] = {
+	--desc = "Breath (Onyxia)";
+	sound = 1;
+};
+
+GTFO.SpellID["57429"] = {
+	--desc = "Static Field (Malygos)";
+	sound = 1;
+	vehicle = true;
+};
+
+GTFO.SpellID["57432"] = {
+	--desc = "Arcane Pulse (Malygos)";
+	sound = 1;
+	vehicle = true;
+};
+
+GTFO.SpellID["62910"] = {
+	--desc = "Mimiron's Inferno (Flame Leviathan - Ulduar)";
+	sound = 1;
+	vehicle = true;
+};
+
+GTFO.SpellID["62039"] = {
+	--desc = "Biting Cold (Hodir - Ulduar)";
+	sound = 1;
+	applicationOnly = true;
+	minimumStacks = 2;
+};
+
+GTFO.SpellID["48095"] = {
+	--desc = "Intense Cold (Keristrasza - Nexus)";
+	sound = 1;
+	applicationOnly = true;
+	minimumStacks = 3;
+};
+
+GTFO.SpellID["52659"] = {
+	--desc = "Static Overload (Ionar - Halls of Lightning)";
+	sound = 4;
+	ignoreSelfInflicted = true;
+	negatingBuffSpellID = 59795; -- Static Overload
+};
+
+GTFO.SpellID["59796"] = {
+	--desc = "Static Overload (Ionar - Halls of Lightning Heroic)";
+	sound = 4;
+	ignoreSelfInflicted = true;
+	negatingBuffSpellID = 59795; -- Static Overload
+};
+
+GTFO.SpellID["52671"] = {
+	--desc = "Arcing Burn (Ionar - Halls of Lightning)";
+	sound = 1;
+};
+
+GTFO.SpellID["59834"] = {
+	--desc = "Arcing Burn (Ionar - Halls of Lightning Heroic)";
+	sound = 1;
+};
+
+GTFO.SpellID["23113"] = {
+	--desc = "Blast Wave (Slag - Halls of Lightning)";
+	sound = 1;
+	tankSound = 0;
+	specificMobs = { 28585 };
+};
+
+GTFO.SpellID["22424"] = {
+	--desc = "Blast Wave (Slag - Halls of Lightning Heroic)";
+	sound = 1;
+	tankSound = 0;
+	specificMobs = { 28585 };
+};
+
+GTFO.SpellID["54025"] = {
+	--desc = "Charged Flurry (Stormforged Runeshaper - Halls of Lightning)";
+	sound = 2;
+	tankSound = 0;
+};
+
+GTFO.SpellID["61583"] = {
+	--desc = "Charged Flurry (Stormforged Runeshaper - Halls of Lightning Heroic)";
+	sound = 2;
+	tankSound = 0;
+};
+
+GTFO.SpellID["52028"] = {
+	--desc = "Whirlwind (General Bjarngrim - Halls of Lightning)";
+	sound = 2;
+	tankSound = 0;
+};
+
+GTFO.SpellID["28062"] = {
+	--desc = "Positive Charge (Thaddius - Naxx)";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
+GTFO.SpellID["28085"] = {
+	--desc = "Negative Charge (Thaddius - Naxx)";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
+GTFO.SpellID["28801"] = {
+	--desc = "Slime (Thaddius - Naxx)";
+	sound = 2;
+};
+
+GTFO.SpellID["30122"] = {
+	--desc = "Plague Cloud (Heigan the Unclean - Naxx)";
+	sound = 1;
+};
+
+GTFO.SpellID["42751"] = {
+	--desc = "Shadow Axe (Ingvar the Plunderer - Utgarde Keep)";
+	sound = 1;
+};
+
+GTFO.SpellID["59720"] = {
+	--desc = "Shadow Axe (Ingvar the Plunderer - Utgarde Keep Heroic)";
+	sound = 1;
+};
+
+GTFO.SpellID["47727"] = {
+	--desc = "Blizzard (Grand Magus Telestra - Nexus)";
+	sound = 2;
+};
+
+GTFO.SpellID["50229"] = {
+	--desc = "Whirlwind (Skadi the Ruthless - Utgarde Pinnacle)";
+	sound = 1;
+	tankSound = 2;
+};
+
+GTFO.SpellID["59323"] = {
+	--desc = "Whirlwind (Skadi the Ruthless - Utgarde Pinnacle)";
 	sound = 1;
 };
