@@ -127,6 +127,7 @@ Change Log:
 		- Added Wrath spells for Icecrown Citadel
 	v5.0.4
 	    - Added BC v5.0.4 Changes
+		- Generic Fail v5.0.4 Changes
 
 ]]--
 
