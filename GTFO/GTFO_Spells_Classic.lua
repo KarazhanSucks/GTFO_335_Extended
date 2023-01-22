@@ -21,11 +21,6 @@ Change Log:
 
 ]]--
 
-GTFO.SpellID["17742"] = {
-	--desc = "Cloud of Disease (Scholomance)";
-	sound = 2;
-};
-
 GTFO.SpellID["68947"] = {
 	--desc = "Irresistible Cologne (Love is in the Air)";
 	sound = 1;
