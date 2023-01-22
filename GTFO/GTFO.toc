@@ -2,7 +2,7 @@
 ## Title: GTFO
 ## Notes: GTFO, you're dying!
 ## Author: Zensunim of Malygos
-## Version: 2.5.3
+## Version: 5.0.4
 ## DefaultState: Enabled
 ## OptionalDeps: PowerAuras
 ## SavedVariables: GTFOData
@@ -15,6 +15,7 @@ GTFO_Spells_BC.lua
 GTFO_Spells_LK.lua
 GTFO_Spells_CAT.lua
 GTFO_Fail_Generic.lua
+GTFO_Fail_BC.lua
 GTFO_Fail_LK.lua
 GTFO_Fail_CAT.lua
 GTFO_Mobs.lua
