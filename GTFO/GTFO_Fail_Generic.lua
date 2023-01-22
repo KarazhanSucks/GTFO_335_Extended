@@ -96,6 +96,132 @@ GTFO.SpellID["15496"] = {
 	};]]--
 };
 
+GTFO.SpellID["19642"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["20684"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["26350"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["16044"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["19632"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["19983"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["20605"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["29665"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["30131"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["39047"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["59992"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["20677"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["20691"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["29561"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["30014"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["31043"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["31345"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["31779"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["39174"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["46559"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
+GTFO.SpellID["Cleave"] = {
+	--desc = "Cleave";
+	tankSound = 0;
+	sound = 3;
+};
+
 GTFO.SpellID["40504"] = {
 	--desc = "Cleave";
 	tankSound = 0;
