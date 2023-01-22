@@ -7,6 +7,7 @@
   <Script file="GTFO_Spells_LK.lua" />
   <Script file="GTFO_Spells_CAT.lua" />
   <Script file="GTFO_Fail_Generic.lua" />
+  <Script file="GTFO_Fail_Classic.lua" />
   <Script file="GTFO_Fail_BC.lua" />
   <Script file="GTFO_Fail_LK.lua" />
   <Script file="GTFO_Fail_CAT.lua" />

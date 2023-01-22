@@ -15,6 +15,7 @@ GTFO_Spells_BC.lua
 GTFO_Spells_LK.lua
 GTFO_Spells_CAT.lua
 GTFO_Fail_Generic.lua
+GTFO_Fail_Classic.lua
 GTFO_Fail_BC.lua
 GTFO_Fail_LK.lua
 GTFO_Fail_CAT.lua
