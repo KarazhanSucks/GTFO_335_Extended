@@ -22,13 +22,14 @@ GTFO.SpellID["19983"] = {
 	--desc = "Cleave (Dragon Bosses)";
 	tankSound = 0;
 	sound = 3;
-	trivialPercent = .5;
+	--trivialPercent = .5;
 };
 
 GTFO.SpellID["15284"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		28586, -- General Bjarngrim, HoL
@@ -57,13 +58,14 @@ GTFO.SpellID["15284"] = {
 		19512, -- Nethervine Reaper, Bot
 		10366, -- Rage Talon Dragon Guard, UBRS
 		9200, -- Spirestone Reaver, LBRS
-	};
+	};]]--
 };
 
 GTFO.SpellID["15496"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 3;
 	specificMobs = { 
 		20923, -- Blood Guard Porung, SH
@@ -91,13 +93,14 @@ GTFO.SpellID["15496"] = {
 		16699, -- Shattered Hand Reaver, SH
 		17800, -- Coilfang Myrmidon, SV
 		17819, -- Durnholde Sentry, CoT:OH
-	};
+	};]]--
 };
 
 GTFO.SpellID["40504"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		17881, -- Aeonus, BM
@@ -129,13 +132,14 @@ GTFO.SpellID["40504"] = {
 		15229, -- Vekniss Soldier, AQ40
 		26624, -- Wretched Belcher, DTK
 		54499, -- The Abominable Greench, Winter Veil
-	};
+	};]]--
 };
 
 GTFO.SpellID["40505"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		11517, -- Oggleflint, RFC
@@ -146,13 +150,14 @@ GTFO.SpellID["40505"] = {
 		37069, -- Lumbering Abomination, HoR
 		42975, -- Plague Ghoul, Strat
 		10405, -- Plague Ghoul, Strat
-	};
+	};]]--
 };
 
 GTFO.SpellID["42724"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		23954, -- Ingvar the Plunderer, Utgarde Keep
@@ -163,37 +168,40 @@ GTFO.SpellID["42724"] = {
 		28578, -- Hardened Steel Reaver, HoS
 		33125, -- Iron Honor Guard, Ulduar
 		32875, -- Iron Honor Guard, Ulduar
-	};
-	trivialLevel = 85;
+	};]]--
+	--trivialLevel = 85;
 };
 
 GTFO.SpellID["15576"] = {
 	--desc = "Whirlwind";
 	sound = 3;
 	tankSound = 0;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		23863, -- Daakara, Zul'Aman
-	};
+	};]]--
 };
 
 GTFO.SpellID["115519"] = {
 	--desc = "Cleave";
 	tankSound = 0;
 	sound = 3;
+	--[[
 	trivialPercent = 5;
 	specificMobs = { 
 		59746, -- Scarlet Centurion
-	};
+	};]]--
 };
 
 GTFO.SpellID["79860"] = {
 	--desc = "Blizzard";
 	sound = 2;
+	--[[
 	trivialPercent = 1;
 	specificMobs = { 
 		65444, -- Captain Mousson, Theramore's Fall
-	};
+	};]]--
 };
 
 GTFO.SpellID["240448"] = {
