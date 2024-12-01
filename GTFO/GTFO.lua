@@ -132,8 +132,8 @@ Change Log:
 ]]--
 
 GTFO = {
-	Version = "5.0.4"; -- Version number (text format)
-	VersionNumber = 50004; -- Numeric version number for checking out-of-date clients
+	Version = "5.0.5"; -- Version number (text format)
+	VersionNumber = 50005; -- Numeric version number for checking out-of-date clients
 	DataCode = "3"; -- Saved Variable versioning, change this value to force a reset to default
 	DebugMode = nil; -- Turn on debug alerts
 	TestMode = nil; -- Activate alerts for events marked as "test only"

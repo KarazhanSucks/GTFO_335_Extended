@@ -116,6 +116,8 @@ Change Log:
 		- Removed Lord Marrowgar's Bone Storm
 	v5.0.4
 		- Bring up to date with v5.0.4
+	v5.0.5
+		- Whitemane Frostmourne Asc Addition
 ]]--
 
 GTFO.SpellID["62548"] = {
@@ -1358,5 +1360,10 @@ GTFO.SpellID["50229"] = {
 
 GTFO.SpellID["59323"] = {
 	--desc = "Whirlwind (Skadi the Ruthless - Utgarde Pinnacle)";
+	sound = 1;
+};
+
+GTFO.SpellID["80959"] = {
+	--desc = "Icy Path (Ascended Dungeons)";
 	sound = 1;
 };
