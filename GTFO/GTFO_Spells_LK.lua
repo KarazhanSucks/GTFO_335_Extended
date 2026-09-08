@@ -120,6 +120,16 @@ Change Log:
 		- Whitemane Frostmourne Asc Addition
 ]]--
 
+GTFO.SpellID["9250594"] = {
+	--desc = "Plague Cloud Noth HC WMFMS03";
+	sound = 1;
+};
+
+GTFO.SpellID["9250595"] = {
+	--desc = "Plague Cloud Noth HC WMFMS03";
+	sound = 1;
+};
+
 GTFO.SpellID["62548"] = {
 	--desc = "Scorch (Ignis-10)";
 	sound = 1;
