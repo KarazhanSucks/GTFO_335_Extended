@@ -120,6 +120,30 @@ Change Log:
 		- Whitemane Frostmourne Asc Addition
 ]]--
 
+GTFO.SpellID["9250658"] = {
+	--desc = "Positive Charge Thadd HC WMFMS03";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
+GTFO.SpellID["9250659"] = {
+	--desc = "Positive Charge Thadd HC WMFMS03";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
+GTFO.SpellID["9250662"] = {
+	--desc = "Negative Charge Thadd HC WMFMS03";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
+GTFO.SpellID["9250663"] = {
+	--desc = "Negative Charge Thadd HC WMFMS03";
+	sound = 4;
+	ignoreSelfInflicted = true;
+};
+
 GTFO.SpellID["9250676"] = {
 	--desc = "Chill Saph HC WMFMS03";
 	sound = 1;
