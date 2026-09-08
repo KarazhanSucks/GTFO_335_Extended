@@ -65,6 +65,18 @@ Change Log:
 	
 ]]--
 
+GTFO.SpellID["9250638"] = {
+	  --desc = "Slime Spray Grobb HC WMFMS03";
+	  sound = 3;
+	  tankSound = 0;
+  };
+
+GTFO.SpellID["9250639"] = {
+	  --desc = "Slime Spray Grobb HC WMFMS03";
+	  sound = 3;
+	  tankSound = 0;
+  };
+
 GTFO.SpellID["63987"] = {
 	--desc = "Trespasser!";
 	applicationOnly = true;
