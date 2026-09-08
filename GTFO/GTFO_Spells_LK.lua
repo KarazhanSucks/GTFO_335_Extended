@@ -120,6 +120,16 @@ Change Log:
 		- Whitemane Frostmourne Asc Addition
 ]]--
 
+GTFO.SpellID["9250626"] = {
+	--desc = "Consumption 4HM HC WMFMS03";
+	sound = 1;
+};
+
+GTFO.SpellID["9250627"] = {
+	--desc = "Consumption 4HM HC WMFMS03";
+	sound = 1;
+};
+
 GTFO.SpellID["9250658"] = {
 	--desc = "Positive Charge Thadd HC WMFMS03";
 	sound = 4;
