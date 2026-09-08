@@ -65,6 +65,16 @@ Change Log:
 	
 ]]--
 
+GTFO.SpellID["9250674"] = {
+	  --desc = "Tail Sweep Sapph HC WMFMS03";
+	  sound = 3;
+  };
+
+GTFO.SpellID["9250675"] = {
+	  --desc = "Tail Sweep Sapph HC WMFMS03";
+	  sound = 3;
+  };
+  
 GTFO.SpellID["9250638"] = {
 	  --desc = "Slime Spray Grobb HC WMFMS03";
 	  sound = 3;
